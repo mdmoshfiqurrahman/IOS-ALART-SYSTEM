@@ -1,0 +1,34 @@
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func leotec(_ sender: UIButton) {
+        let alearController = UIAlertController(title: "AGE OF CHIKEN:1 DAY", message: "DON'T EAT ME",preferredStyle: UIAlertController.Style.alert)
+        alearController.addAction (UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        present(alearController, animated: true, completion: nil)
+}
+
+
+    @IBAction func leotec2(_ sender: UIButton) {
+        let alearController = UIAlertController(title: "AGE OF CHIKEN:10 DAY", message: "DONT IT ME",preferredStyle: UIAlertController.Style.alert)
+        alearController.addAction (UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+        present(alearController, animated: true, completion: nil)
+    }
+    
+    @IBAction func leotec3(_ sender: UIButton) {
+        let alearController = UIAlertController(title: "MATURED HEN", message: "IF YOU CAN CATCH ME I AM READY TO BE YOUR DELICIOUS CHIKEN SOUP",preferredStyle: UIAlertController.Style.alert)
+        alearController.addAction (UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+        present(alearController, animated: true, completion: nil)
+    }
+    
+    @IBAction func leotec4(_ sender: UIButton) {
+        let alearController = UIAlertController(title: "I AM TRYING TO CATCH IT", message: "HURRY I HAVE CAUGHT IT",preferredStyle: UIAlertController.Style.alert)
+        alearController.addAction (UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+        present(alearController, animated: true, completion: nil)
+    }
+}
